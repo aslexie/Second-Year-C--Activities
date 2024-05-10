@@ -1,0 +1,36 @@
+//Set the username and password. Let the user username and password and print if it is the same or not.
+#include <iostream>
+using namespace std;
+int main() {
+   
+    string username = "Computer",
+           password = "Programming";
+           
+    string input1,
+           input2;
+
+    cout << "Username: ";
+    cin >> input1;
+    cout << "Password: ";
+    cin >> input2;
+    
+    
+    if(input1 != username && input2 != password){
+        cout << "Incorrect Account"<< "\n";
+    }
+
+    else if(input1 == username){
+        if(input2 == password){
+              cout << "Login Successfully"<< "\n";
+        }
+        else{
+              cout << "Incorrect Password"<< "\n";
+        }
+    }
+    else{
+        
+          cout << "Incorrect Username"<< "\n";
+    }
+
+    return 0;
+}
