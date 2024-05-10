@@ -1,0 +1,118 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+    int score = 0;
+    string answer1, answer2, answer3, answer4, answer5;
+    string key1 = "Computer_Hardware",
+     key2 = "Computer_Case",
+     key3 = "Motherboard",
+     key4 = "Flowchart",
+     key5 = "C++";
+    
+    cout << "Instruction: \n";
+    cout << "Please answer the following questions.\n"; 
+    cout << "Answers should be in proper capitalization. \n"; 
+    cout << "Use underscore (_) as space. \n";
+    
+    cout << "\n\n\n";
+    cout << "QUESTION 1 \n\n";
+	cout << "The physical parts or components of a computer, \n";
+	cout << "such as the monitor, mouse, keyboard, computer data storage, \n";
+	cout << "hard disk drive (HDD), graphic cards, sound cards, memory, motherboard, \n";
+	cout << "and so on, all of which are physical objects that are tangible: \n";
+	cout << "\n";
+	cout << "ANSWER: \n";
+    cin >> answer1;
+    cout << "\n";
+
+    if(answer1 == key1)
+	{
+        cout << "Correct! \n";
+        score++;
+    }
+    else 
+	{ 
+        cout << "Wrong! \n";
+    }
+    
+    cout << "\n\n\n";
+    cout << "QUESTION 2 \n\n";
+	cout << "A plastic or metal enclosure that houses most of the components. \n";
+	cout << "\n";
+	cout << "ANSWER: \n";
+    cin >> answer2;
+    cout << "\n";
+
+    if(answer2 == key2)
+	{
+        cout << "Correct! \n";
+        score++;
+    }
+    else 
+	{ 
+        cout << "Wrong! \n";
+    }
+    
+    cout << "\n\n\n";
+    cout << "QUESTION 3 \n\n";
+	cout << "This is the main component of a computer. \n";
+	cout << "\n";
+	cout << "ANSWER: \n";
+    cin >> answer3;
+    cout << "\n";
+
+    if(answer3 == key3)
+	{
+        cout << "Correct! \n";
+        score++;
+    }
+    else 
+	{ 
+        cout << "Wrong! \n";
+    }
+    
+    cout << "\n\n\n";
+    cout << "QUESTION 4 \n\n";
+	cout << "A diagram that depicts a process, system or computer algorithm. \n";
+	cout << "\n";
+	cout << "ANSWER: \n";
+    cin >> answer4;
+    cout << "\n";
+
+    if(answer4 == key4)
+	{
+        cout << "Correct! \n";
+        score++;
+    }
+    else 
+	{ 
+        cout << "Wrong! \n";
+    }
+    
+    cout << "\n\n\n";
+    cout << "QUESTION 5 \n\n";
+	cout << "A programming language that was created by Bjarne Stroustrup \n";
+	cout << "and his team at Bell Laboratories (AT&T, USA) \n";
+	cout << "to help implement simulation projects in an object oriented and efficient way. \n";
+	cout << "\n";
+	cout << "ANSWER: \n";
+    cin >> answer5;
+    cout << "\n";
+
+    if(answer5 == key5)
+	{
+        cout << "Correct! \n";
+        score++;
+    }
+    else 
+	{ 
+        cout << "Wrong! \n";
+    }
+
+    cout << "\n\n\nYour score is ";
+	cout << score << "/5";
+	cout << "\n\n";
+	
+return 0;
+}
